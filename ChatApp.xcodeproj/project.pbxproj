@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		06ECF2553B3EA7D71D3E6CF1 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED09CFFE7587F77E6041069 /* Pods_ChatApp.framework */; };
 		5E811DBC201A44C7005B1FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DBB201A44C7005B1FC8 /* AppDelegate.swift */; };
-		5E811DBE201A44C7005B1FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DBD201A44C7005B1FC8 /* ViewController.swift */; };
 		5E811DC1201A44C7005B1FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E811DBF201A44C7005B1FC8 /* Main.storyboard */; };
 		5E811DC3201A44C7005B1FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E811DC2201A44C7005B1FC8 /* Assets.xcassets */; };
 		5E811DC6201A44C7005B1FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E811DC4201A44C7005B1FC8 /* LaunchScreen.storyboard */; };
-		5E811DD1201A4E17005B1FC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DCF201A4E17005B1FC8 /* SWRevealViewController.m */; };
+		5E811DD6201B50D5005B1FC8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DD5201B50D5005B1FC8 /* ChatVC.swift */; };
+		5E811DD8201B50E5005B1FC8 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DD7201B50E5005B1FC8 /* ChannelVC.swift */; };
+		5E811DE1201B56D6005B1FC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DDF201B56D5005B1FC8 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ED09CFFE7587F77E6041069 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E811DB8201A44C7005B1FC8 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E811DBB201A44C7005B1FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E811DBD201A44C7005B1FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E811DC0201A44C7005B1FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E811DC2201A44C7005B1FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E811DC5201A44C7005B1FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E811DC7201A44C7005B1FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E811DCE201A4E16005B1FC8 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		5E811DCF201A4E17005B1FC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		5E811DD0201A4E17005B1FC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5E811DD5201B50D5005B1FC8 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		5E811DD7201B50E5005B1FC8 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		5E811DDF201B56D5005B1FC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5E811DE0201B56D5005B1FC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5E811DE2201B56F9005B1FC8 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		93103D700F3851179EA97881 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		D23B71A7AD006B93B8B83680 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +58,7 @@
 		5E811DAF201A44C7005B1FC8 = {
 			isa = PBXGroup;
 			children = (
-				5E811DCD201A4DF9005B1FC8 /* Supporting Files */,
+				5E811DDE201B56A2005B1FC8 /* Supporting Files */,
 				5E811DBA201A44C7005B1FC8 /* ChatApp */,
 				5E811DB9201A44C7005B1FC8 /* Products */,
 				1581C2A11BE6FA2CC18818A0 /* Pods */,
@@ -75,8 +77,10 @@
 		5E811DBA201A44C7005B1FC8 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E811DD4201B50B7005B1FC8 /* Model */,
+				5E811DD3201B50AC005B1FC8 /* View */,
+				5E811DD2201B50A2005B1FC8 /* Controller */,
 				5E811DBB201A44C7005B1FC8 /* AppDelegate.swift */,
-				5E811DBD201A44C7005B1FC8 /* ViewController.swift */,
 				5E811DBF201A44C7005B1FC8 /* Main.storyboard */,
 				5E811DC2201A44C7005B1FC8 /* Assets.xcassets */,
 				5E811DC4201A44C7005B1FC8 /* LaunchScreen.storyboard */,
@@ -85,12 +89,35 @@
 			path = ChatApp;
 			sourceTree = "<group>";
 		};
-		5E811DCD201A4DF9005B1FC8 /* Supporting Files */ = {
+		5E811DD2201B50A2005B1FC8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5E811DD0201A4E17005B1FC8 /* SWRevealViewController.h */,
-				5E811DCF201A4E17005B1FC8 /* SWRevealViewController.m */,
-				5E811DCE201A4E16005B1FC8 /* ChatApp-Bridging-Header.h */,
+				5E811DD5201B50D5005B1FC8 /* ChatVC.swift */,
+				5E811DD7201B50E5005B1FC8 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E811DD3201B50AC005B1FC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E811DD4201B50B7005B1FC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E811DDE201B56A2005B1FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E811DE0201B56D5005B1FC8 /* SWRevealViewController.h */,
+				5E811DDF201B56D5005B1FC8 /* SWRevealViewController.m */,
+				5E811DE2201B56F9005B1FC8 /* ChatApp-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E811DBE201A44C7005B1FC8 /* ViewController.swift in Sources */,
+				5E811DD8201B50E5005B1FC8 /* ChannelVC.swift in Sources */,
+				5E811DD6201B50D5005B1FC8 /* ChatVC.swift in Sources */,
 				5E811DBC201A44C7005B1FC8 /* AppDelegate.swift in Sources */,
-				5E811DD1201A4E17005B1FC8 /* SWRevealViewController.m in Sources */,
+				5E811DE1201B56D6005B1FC8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
