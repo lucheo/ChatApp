@@ -16,6 +16,8 @@
 		5E811DD8201B50E5005B1FC8 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DD7201B50E5005B1FC8 /* ChannelVC.swift */; };
 		5E811DE1201B56D6005B1FC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DDF201B56D5005B1FC8 /* SWRevealViewController.m */; };
 		5E811DE4201B5ACB005B1FC8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DE3201B5ACB005B1FC8 /* GradientView.swift */; };
+		5E811DE7201BC16B005B1FC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DE6201BC16B005B1FC8 /* Constants.swift */; };
+		5E811DE9201BC709005B1FC8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E811DE8201BC709005B1FC8 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		5E811DE0201B56D5005B1FC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5E811DE2201B56F9005B1FC8 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E811DE3201B5ACB005B1FC8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5E811DE6201BC16B005B1FC8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E811DE8201BC709005B1FC8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		93103D700F3851179EA97881 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		D23B71A7AD006B93B8B83680 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +83,7 @@
 		5E811DBA201A44C7005B1FC8 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E811DE5201BC158005B1FC8 /* Utilities */,
 				5E811DD4201B50B7005B1FC8 /* Model */,
 				5E811DD3201B50AC005B1FC8 /* View */,
 				5E811DD2201B50A2005B1FC8 /* Controller */,
@@ -96,6 +101,7 @@
 			children = (
 				5E811DD5201B50D5005B1FC8 /* ChatVC.swift */,
 				5E811DD7201B50E5005B1FC8 /* ChannelVC.swift */,
+				5E811DE8201BC709005B1FC8 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				5E811DE2201B56F9005B1FC8 /* ChatApp-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E811DE5201BC158005B1FC8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E811DE6201BC16B005B1FC8 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		FD8C6DC3A10D9209B2121B69 /* Frameworks */ = {
@@ -269,9 +283,11 @@
 			files = (
 				5E811DD8201B50E5005B1FC8 /* ChannelVC.swift in Sources */,
 				5E811DD6201B50D5005B1FC8 /* ChatVC.swift in Sources */,
+				5E811DE9201BC709005B1FC8 /* LoginVC.swift in Sources */,
 				5E811DE4201B5ACB005B1FC8 /* GradientView.swift in Sources */,
 				5E811DBC201A44C7005B1FC8 /* AppDelegate.swift in Sources */,
 				5E811DE1201B56D6005B1FC8 /* SWRevealViewController.m in Sources */,
+				5E811DE7201BC16B005B1FC8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
