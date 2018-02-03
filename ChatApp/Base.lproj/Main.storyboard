@@ -185,7 +185,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-YC-v5K">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-YC-v5K" customClass="CircleImage" customModule="ChatApp" customModuleProvider="target">
                                 <rect key="frame" x="137" y="356" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="898-v6-hSZ"/>
@@ -240,6 +240,10 @@
                                     <action selector="createAccountPressed:" destination="31M-D2-JNq" eventType="touchUpInside" id="D6z-H7-B7F"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="EiE-KN-yuM">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -252,10 +256,12 @@
                             <constraint firstItem="QhJ-YC-v5K" firstAttribute="top" secondItem="Fh1-N9-CkL" secondAttribute="bottom" constant="40" id="Lys-UM-F8V"/>
                             <constraint firstItem="08S-4x-Fo7" firstAttribute="top" secondItem="i1g-pX-LEU" secondAttribute="top" id="btm-rn-HZQ"/>
                             <constraint firstItem="i1g-pX-LEU" firstAttribute="trailing" secondItem="08S-4x-Fo7" secondAttribute="trailing" constant="16" id="cA6-7g-FmF"/>
+                            <constraint firstItem="EiE-KN-yuM" firstAttribute="centerX" secondItem="fA5-aJ-W4z" secondAttribute="centerX" id="f9d-fD-bCs"/>
                             <constraint firstItem="TAw-nl-Rh9" firstAttribute="centerX" secondItem="fA5-aJ-W4z" secondAttribute="centerX" id="iP2-p3-I6B"/>
                             <constraint firstItem="ZnB-9m-adM" firstAttribute="centerX" secondItem="fA5-aJ-W4z" secondAttribute="centerX" id="q2Z-8Y-ghZ"/>
                             <constraint firstItem="Bti-pP-xGP" firstAttribute="top" secondItem="TAw-nl-Rh9" secondAttribute="bottom" constant="60" id="qE5-Gj-jDJ"/>
                             <constraint firstItem="bqI-bQ-UoA" firstAttribute="width" secondItem="QhJ-YC-v5K" secondAttribute="width" id="seR-4C-eQy"/>
+                            <constraint firstItem="EiE-KN-yuM" firstAttribute="centerY" secondItem="fA5-aJ-W4z" secondAttribute="centerY" id="w8i-Vh-27F"/>
                             <constraint firstItem="Fh1-N9-CkL" firstAttribute="centerX" secondItem="fA5-aJ-W4z" secondAttribute="centerX" id="wbu-J0-tSC"/>
                             <constraint firstItem="Bti-pP-xGP" firstAttribute="centerX" secondItem="fA5-aJ-W4z" secondAttribute="centerX" id="zpU-1W-0VU"/>
                         </constraints>
@@ -264,6 +270,7 @@
                     <connections>
                         <outlet property="emailField" destination="2u3-BI-8QK" id="Yd4-c3-bcG"/>
                         <outlet property="passwordField" destination="tEv-kQ-fbw" id="UrJ-vP-LLk"/>
+                        <outlet property="spinner" destination="EiE-KN-yuM" id="yPb-0W-GTg"/>
                         <outlet property="userImg" destination="QhJ-YC-v5K" id="3gs-IN-hyc"/>
                         <outlet property="usernameField" destination="yAo-mC-ueW" id="KEe-MZ-Fz9"/>
                         <segue destination="yQZ-TW-qJb" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="vHt-zh-eXG"/>
@@ -393,7 +400,7 @@
                                     <action selector="loginBtnPressed:" destination="ofH-Oo-gOb" eventType="touchUpInside" id="a8a-57-08n"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="fKQ-f7-mvN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="fKQ-f7-mvN" customClass="CircleImage" customModule="ChatApp" customModuleProvider="target">
                                 <rect key="frame" x="20" y="567" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="4bE-O4-u7v"/>
