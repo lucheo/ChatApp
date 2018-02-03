@@ -569,24 +569,36 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginBtnPressed:" destination="Lyf-VM-vmx" eventType="touchUpInside" id="Va4-tf-Rc0"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Y36-H8-gcH">
+                                <rect key="frame" x="169" y="215.5" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="jtm-mc-Eby" firstAttribute="trailing" secondItem="gqX-Yw-wgr" secondAttribute="trailing" constant="16" id="7dr-ox-BaV"/>
                             <constraint firstItem="vTV-We-34U" firstAttribute="top" secondItem="wcV-os-hVs" secondAttribute="bottom" id="BWh-SO-amq"/>
+                            <constraint firstItem="Y36-H8-gcH" firstAttribute="centerY" secondItem="5hf-VR-bQN" secondAttribute="centerY" constant="-100" id="Cdn-dL-kys"/>
                             <constraint firstItem="lV0-wX-er3" firstAttribute="top" secondItem="jtm-mc-Eby" secondAttribute="top" constant="60" id="FY2-aK-0rZ"/>
                             <constraint firstItem="lV0-wX-er3" firstAttribute="centerX" secondItem="5hf-VR-bQN" secondAttribute="centerX" id="PIj-OU-S0d"/>
                             <constraint firstItem="N3R-cZ-iog" firstAttribute="top" secondItem="lV0-wX-er3" secondAttribute="bottom" constant="40" id="QdI-tp-vKc"/>
                             <constraint firstItem="vTV-We-34U" firstAttribute="centerX" secondItem="5hf-VR-bQN" secondAttribute="centerX" id="Sed-br-5y6"/>
                             <constraint firstItem="gqX-Yw-wgr" firstAttribute="top" secondItem="jtm-mc-Eby" secondAttribute="top" id="YTl-Rm-gjB"/>
                             <constraint firstItem="wcV-os-hVs" firstAttribute="centerX" secondItem="5hf-VR-bQN" secondAttribute="centerX" id="iEv-rE-Nqw"/>
+                            <constraint firstItem="Y36-H8-gcH" firstAttribute="centerX" secondItem="5hf-VR-bQN" secondAttribute="centerX" id="nsl-zb-Nac"/>
                             <constraint firstItem="N3R-cZ-iog" firstAttribute="centerX" secondItem="5hf-VR-bQN" secondAttribute="centerX" id="wjy-Oa-qkN"/>
                             <constraint firstItem="wcV-os-hVs" firstAttribute="top" secondItem="N3R-cZ-iog" secondAttribute="bottom" constant="40" id="zl9-GJ-QtA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jtm-mc-Eby"/>
                     </view>
                     <connections>
+                        <outlet property="passwordLbl" destination="r8t-bc-7AQ" id="iJD-ov-GL9"/>
+                        <outlet property="spinner" destination="Y36-H8-gcH" id="4pH-oE-yVU"/>
+                        <outlet property="usernameTxt" destination="Vnt-xk-TvQ" id="wpC-pg-pJa"/>
                         <segue destination="31M-D2-JNq" kind="show" identifier="toCreateAccount" id="1Rz-l2-kS9"/>
                     </connections>
                 </viewController>
